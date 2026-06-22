@@ -1,0 +1,10 @@
+[cosmic-ray]
+module-path = "src/pizza_service"
+timeout = 10.0
+excluded-modules = ["__init__.py"]
+test-command = "python -m pytest tests/property/ -x --no-header -q"
+
+[cosmic-ray.distributor]
+name = "local"
+
+[cosmic-ray.distributor.local]

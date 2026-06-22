@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.hypothesis/
+.coverage
+htmlcov/
+*.sqlite
+session.sqlite
+.venv/
+venv/
+.idea/
+.vscode/
