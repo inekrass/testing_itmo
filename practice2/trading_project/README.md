@@ -21,12 +21,12 @@ REST API для работы с биржевыми датами:
 python -m pip install -r requirements.txt
 ```
 
-3. Выполненные задания находятся в `/student_tasks`:
+2. Выполненные задания находятся в `/student_tasks`:
 
 - `student_tasks/exercise_4_mocks.py`
 - `student_tasks/exercise_5_api.py`
 
-4. Как запустить тесты:
+3. Как запустить тесты:
 
 ```bash
 python -m pytest student_tasks/exercise_4_mocks.py -v
